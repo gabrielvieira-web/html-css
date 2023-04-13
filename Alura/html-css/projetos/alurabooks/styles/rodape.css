@@ -32,6 +32,14 @@ hr {
         color: var(--cinza);
         text-decoration: none;
         margin-left: .5em;
+        padding: .5em .5em;
+        transition: .2s;
+    }
+
+    .lista-rodape__link:hover {
+        background-color: var(--cinza-claro);
+        color: var(--laranja);
+        border-radius: 5px;
     }
 
     .lista-rodape__titulo {

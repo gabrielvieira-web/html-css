@@ -68,6 +68,18 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    transition: .7s;
+}
+
+.botoes__ancora:hover {
+    background-color: var(--cinza);
+    transform: scale(1.1);
+    border-radius: 10px 0;
+}
+
+.botoes__ancora:active {
+    color: var(--laranja);
+    transition: none;
 }
 
 @media screen and (min-width: 1024px) {
